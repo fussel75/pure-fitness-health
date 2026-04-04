@@ -146,7 +146,7 @@ export const V2Scene5CTAFitbox: React.FC = () => {
             filter: `drop-shadow(0 0 15px rgba(61, 139, 55, 0.3))`,
           }}
         >
-          <FitboxLogo width={550} bgColor="#0a0a0a" />
+          <FitboxLogo width={600} />
         </div>
 
         {/* "Barmbek" location */}
@@ -218,7 +218,7 @@ export const V2Scene5CTAFitbox: React.FC = () => {
           </span>
           {/* Pure Fitness & Health GmbH logo */}
           <div className="flex justify-center" style={{ opacity: 0.7 }}>
-            <PureFitnessLogo width={320} color="#888888" />
+            <PureFitnessLogo width={380} />
           </div>
         </div>
       </div>
