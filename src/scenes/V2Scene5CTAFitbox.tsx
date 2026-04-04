@@ -36,9 +36,9 @@ const Particle: React.FC<{
         top: y + yOffset,
         width: size,
         height: size,
-        backgroundColor: "#76B82A",
+        backgroundColor: "#3d8b37",
         opacity,
-        boxShadow: "0 0 6px rgba(118, 184, 42, 0.8)",
+        boxShadow: "0 0 6px rgba(61, 139, 55, 0.8)",
       }}
     />
   );
@@ -129,7 +129,7 @@ export const V2Scene5CTAFitbox: React.FC = () => {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(circle at 50% 45%, rgba(118, 184, 42, 0.06) 0%, transparent 50%)",
+            "radial-gradient(circle at 50% 45%, rgba(61, 139, 55, 0.06) 0%, transparent 50%)",
         }}
       />
 
@@ -143,10 +143,10 @@ export const V2Scene5CTAFitbox: React.FC = () => {
               [50, 0]
             )}px) scale(${interpolate(fitboxSpring, [0, 1], [0.7, 1])})`,
             opacity: fitboxSpring,
-            filter: `drop-shadow(0 0 15px rgba(118, 184, 42, 0.3))`,
+            filter: `drop-shadow(0 0 15px rgba(61, 139, 55, 0.3))`,
           }}
         >
-          <FitboxLogo width={550} />
+          <FitboxLogo width={550} bgColor="#0a0a0a" />
         </div>
 
         {/* "Barmbek" location */}
@@ -163,7 +163,7 @@ export const V2Scene5CTAFitbox: React.FC = () => {
         >
           <span
             className="font-sans font-bold text-6xl"
-            style={{ color: "#76B82A", letterSpacing: "0.15em" }}
+            style={{ color: "#3d8b37", letterSpacing: "0.15em" }}
           >
             Barmbek
           </span>
@@ -182,8 +182,8 @@ export const V2Scene5CTAFitbox: React.FC = () => {
           <div
             className="px-16 py-7 rounded-full"
             style={{
-              backgroundColor: "#76B82A",
-              boxShadow: `0 0 ${buttonPulse * buttonSpring}px rgba(118, 184, 42, 0.6), 0 4px 20px rgba(118, 184, 42, 0.3)`,
+              backgroundColor: "#3d8b37",
+              boxShadow: `0 0 ${buttonPulse * buttonSpring}px rgba(61, 139, 55, 0.6), 0 4px 20px rgba(61, 139, 55, 0.3)`,
             }}
           >
             <span className="font-sans font-black text-4xl text-brand-dark">
@@ -218,7 +218,7 @@ export const V2Scene5CTAFitbox: React.FC = () => {
           </span>
           {/* Pure Fitness & Health GmbH logo */}
           <div className="flex justify-center" style={{ opacity: 0.7 }}>
-            <PureFitnessLogo width={320} />
+            <PureFitnessLogo width={320} color="#888888" />
           </div>
         </div>
       </div>
